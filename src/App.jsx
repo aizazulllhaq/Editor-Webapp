@@ -7,7 +7,7 @@ import StoryResultPage from "./Pages/StoryResultPage";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/checked",
     element: <HomePage />,
   },
   {
@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     element: <StoryResultPage />,
   },
   {
-    path: "/newStory",
+    path: "/",
     element: <NewStoryPage />,
   },
 ]);

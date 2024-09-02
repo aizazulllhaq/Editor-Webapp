@@ -6,7 +6,7 @@ const ActionSelector = () => {
   return (
     <div className="max-w-[800px] mx-auto">
       <Typography className="text-white text-sm sm:text-md text-center md:text-xl tracking-widest px-2">
-        Whatdf would you like to{" "}
+        What would you like to{" "}
         <Button
           className="py-[2px] px-[6px] sm:py-[4px] sm:px-[12px]"
           variant="contained"
