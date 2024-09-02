@@ -4,7 +4,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="w-full bg-black text-white py-2 flex justify-around md:justify-normal items-center">
+    <div className="max-w[1250px] mx-auto bg-black text-white py-2 flex justify-around md:justify-normal items-center">
       <div className="md:flex-grow flex justify-center">
         <Typography className="font-serif text-xl">ΞＤＧＬＲＤ　</Typography>
       </div>

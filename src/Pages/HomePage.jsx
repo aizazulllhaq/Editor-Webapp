@@ -5,7 +5,7 @@ import ContentSection from "../Components/Home/ContentSection";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="w-full min-h-screen">
       <Navbar />
       <MainContent />
       <ContentSection />
