@@ -11,11 +11,11 @@ const router = createBrowserRouter([
     element: <HomePage />,
   },
   {
-    path: "/Editor-Webapp/",
+    path: "/Editor-Webapp/checked",
     element: <StoryResultPage />,
   },
   {
-    path: "/Editor-Webapp/newStory",
+    path: "/Editor-Webapp/",
     element: <NewStoryPage />,
   },
 ]);
