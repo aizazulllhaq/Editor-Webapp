@@ -7,15 +7,15 @@ import StoryResultPage from "./Pages/StoryResultPage";
 
 const router = createBrowserRouter([
   {
-    path: "/Editor-Webapp/",
+    path: "/",
     element: <HomePage />,
   },
   {
-    path: "/Editor-Webapp/storyResult",
+    path: "/storyResult",
     element: <StoryResultPage />,
   },
   {
-    path: "/Editor-Webapp/newStory",
+    path: "/newStory",
     element: <NewStoryPage />,
   },
 ]);
